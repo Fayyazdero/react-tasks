@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Heading } from "./components/heading";
+import { Para } from "./components/para";
+import { Popular } from "./components/popular";
+import { Processes } from "./components/processes";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section className="process-section">
+        <Heading title="Easy Simple " boldHeading="3 steps process"></Heading>
+        <Para text="Join our community and let’s heal the world with your knowledge & earn rewards." />
+        <Processes />
+      </section>
+      <section className="popular-section">
+        <Heading className="popular-blogs-main-heading" title="Popular blogs"/>
+        <Popular />
+      </section>
     </div>
   );
 }

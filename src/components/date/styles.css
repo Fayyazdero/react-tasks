@@ -1,0 +1,21 @@
+.date-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.calender-icon {
+  margin-right: 8px;
+  height: 12px;
+  width: 12px;
+}
+
+.date {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  color: #393858;
+  margin: 0;
+}

@@ -1,0 +1,47 @@
+.popular {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 60px;
+}
+@media screen and (max-width: 767px) {
+  .popular {
+    display: block;
+  }
+}
+.popular-blog-cards {
+  border: 1px solid rgba(94, 94, 117, 0.1);
+  border-radius: 4px;
+  margin-right: 24px;
+}
+.popular-card-content {
+  padding: 0 16px;
+}
+
+.cover-image img {
+  width: 100%;
+}
+.popular-card-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  padding-top: 14px;
+  color: #393858;
+  padding-bottom: 0;
+}
+
+.popular-card-author {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: left;
+  padding-top: 4px;
+  color: #393858;
+}
+
+.chips {
+  display: flex;
+  justify-content: space-between;
+}

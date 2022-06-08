@@ -1,0 +1,66 @@
+.processes {
+  display: flex;
+  justify-content: center;
+  margin: 0 60px;
+}
+@media screen and (max-width: 767px) {
+    .processes {
+       display: block;
+    }
+
+    .para {
+        width: 70%;
+    }
+}
+
+
+.process-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 30px 0px 0px 0;
+  text-align: center;
+  margin: 0 0 8px 0;
+  color: #393858;
+}
+
+.process-para {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #5e5e75;
+  width: 100%;
+}
+
+.process-steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 17px;
+}
+
+.image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 130px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.border-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed #99b6ff;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
