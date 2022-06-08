@@ -16,6 +16,13 @@ body {
   color: #393858 !important; 
   margin: 0 60px !important;
 }
+
+@media screen and (max-width: 767px) {
+  .popular-blogs-main-heading {
+    margin: 0 !important;
+    line-height: 50px;
+  }
+}
 .process-section {
   background-color: #e0e9ff;
   padding-bottom: 40px;

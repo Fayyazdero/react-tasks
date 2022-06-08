@@ -6,6 +6,7 @@
 @media screen and (max-width: 767px) {
   .popular {
     display: block;
+    margin: 0 !important;
   }
 }
 .popular-blog-cards {
